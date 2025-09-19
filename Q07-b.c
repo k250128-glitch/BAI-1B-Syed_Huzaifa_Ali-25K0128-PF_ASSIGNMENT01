@@ -2,7 +2,7 @@
 int main(){
 
     int value;
-    printf("Please enter a value in the range 1...5:");
+    printf("Please enter a value in the range 1...7:");
     scanf("%d", &value);
     //Translate number into its English word
     switch (value)
@@ -43,3 +43,4 @@ int main(){
     }
     return 0;
 }
+
